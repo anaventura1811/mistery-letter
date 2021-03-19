@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mistery Letter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <header>
+    <h1>mistery letter</h1>
+  </header>
+ <main>
+  <p id="instructions">Digite sua carta no campo abaixo e deixe a magia gerar uma carta misteriosa para você!</p>
+  <div class="carta">
+    <label for="carta-texto">minha carta misteriosa:</label>
+    <input type="text" name="carta" id="carta-texto" size="300">
+    <button id="criar-carta">Criar carta</button>
+ </div>
+
+  <p id="carta-gerada"></p>
+
+  <div class="flex-container">
+    <p id="label">Contador de palavras:</p>
+    <p id="carta-contador">0</p>
+  </div>
+ </main> 
+ <footer>
+   <p id="footer">&copy Ana Ventura. Projeto Mistery Letter. Estudante de Desenvolvimento Web na Trybe | Turma 10 | Tribo A. 2021.</p>
+ </footer>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
